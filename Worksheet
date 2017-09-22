@@ -1,0 +1,187 @@
+IBMSTEM4Girls
+HTML & CSS Cheat Sheet
+
+
+HTML:
+
+Document Summary
+
+<html> … </html>
+The tag shows up at the beginning and end of an HTML document (known as a root element). 
+
+<title> … </title>
+The title tag is the title for the page, it’s used by search engines and users to state the topic of the page
+
+<head> … </head>
+This contains the information for the page including the title, meta data, script, and style
+
+<body> ... </body>
+Body tags include all content that will be shown to users, including everything you read and see
+
+Document Information
+
+<base>
+The Base URL is useful for specifying all relative links in a document
+
+<meta>
+Meta data spells out additional information about the page, including the page’s description, author, published date, keywords and other typically 'hidden' information
+
+<link>
+Can be used to create relationships with external pages or documents, including style sheets
+
+<style> … </style>
+This document includes document style information, typically defaulting to CSS
+
+<script> … </script>
+This element includes all scripting information or links to external scripts. You can also include this to dynamically generate content.
+
+Document Structure
+
+<div> … </div>
+A generic container used to denote a section of the page
+
+<span> … </span>
+An inline section or block container, typically used for grouping styling elements
+
+<h1…h6> … </h1…h6>
+All six levels of Headings, with 1 being the most important on the page and 6 being the least. These are used to describe the contents
+
+<p> … </p>
+This foundational tag organizes paragraphs of text
+
+<br>
+Creates a line break, useful for writing blocks of text that need to be on different lines
+
+
+<hr>
+Creates a horizontal rule, a sectional break in a page. Usually indicates a change in topic or section
+
+<b> … </b>
+Creates bolded text
+
+<i> … </i>
+Creates italicized text
+
+id=“”
+A selector for editing HTML elements in CSS (indicated in the CSS code by #). It can only be used to identify one element
+
+class=“”
+A selector for editing HTML elements in CSS (indicated in the CSS code by a .). It can be used for multiple elements
+
+Links
+
+<a href=“”> … </a>
+Anchor text for a hyperlink
+
+<a href=“mailto:”> … </a>
+A link used to pull up and outgoing message to a specific email address
+
+<a href=“tel://###-###-####”> … </a>
+A link to make phone numbers clickable, useful for mobile users
+
+<a name=“name”> … </a>
+An anchor that’s useful for bringing users to specific document elements
+
+<a href=“#name”> … </a>
+An anchor link that brings users specifically to a div element
+
+Images
+
+<img>
+An image tag to include and display image files
+
+src=“url”
+The URL or file of the image to display
+
+alt=“text”
+Alternative text that helps explain the image content to both search engines and users
+
+height=“” or width=“”
+The ability to specify the height or width of an image in pixels or percentages
+
+align=“”
+The alignment of the image (relative to other images on the page)
+
+border=“”
+Explains border thickness if any
+
+Lists
+
+<ol> … </ol>
+Create numbered (ordered) lists showing sequential order
+
+<ul> … </ul>
+Display a bulleted (unordered) list without any extra emphasis on order of importance
+
+<li> … </li>
+Specifies each list item to be bulleted or numberedCSS:
+
+Syntax
+/* Comment */
+
+selector {
+	property: values;
+	}
+
+Box Model
+
+
+Properties
+
+Boxes:
+margin
+padding
+border
+border-color
+border-style
+border-width
+
+Positioning
+display
+position
+float
+overflow
+clip
+visibility
+
+Dimensions
+width
+min-width
+max-width
+height (min & max)
+
+Colour/Background
+color
+background
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+
+Fonts
+font-family
+font-style
+font-weight
+font-size
+
+Text
+text-indent
+text-align
+text-shadow
+letter-spacing
+word-spacing
+
+Misc
+volume
+list-style
+cursor
+
+Values
+
+Colour
+#789ABC
+rgb(0,25,50)
+
+Units
+
